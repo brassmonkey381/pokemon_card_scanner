@@ -1,0 +1,16 @@
+{
+  "name": "pokemon_card_app",
+  "version": "0.0.1",
+  "description": "An Ionic project",
+  "devDependencies": {
+    "@capacitor/cli": "3.2.5",
+    "@ionic/v1-toolkit": "^1.0.0",
+    "gulp": "^3.5.6",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "@capacitor/core": "3.2.5"
+  }
+}

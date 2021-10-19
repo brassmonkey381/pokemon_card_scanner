@@ -1,0 +1,94 @@
+<!--
+<ion-header>
+  <ion-navbar>
+    <ion-title>{{ 'SCANNER_TITLE' | translate }}</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+</ion-content>
+-->
+
+<ion-header>
+  <ion-navbar>
+    <ion-title>{{ 'SCANNER_TITLE' | translate }}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" [ngClass]="{'custom-ion-content': isToBack}">
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <button ion-button color="primary" (click)="startCameraAbove()">Start Front</button>
+      </ion-col>
+      <ion-col>
+        <button ion-button color="primary" (click)="startCameraBelow()">Start Back</button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <button ion-button color="danger" (click)="stopCamera()">Stop Camera</button>
+      </ion-col>
+      <ion-col>
+
+        <ion-label>Color Effect:</ion-label>
+        <ion-select interface="popover" placeholder="Select Effect" [(ngModel)]="colorEffect"
+                    (ionChange)="changeColorEffect()">
+          <ion-option value="none">none</ion-option>
+          <ion-option value="aqua">aqua</ion-option>
+          <ion-option value="blackboard">blackboard</ion-option>
+          <ion-option value="mono">mono</ion-option>
+          <ion-option value="negative">negative</ion-option>
+          <ion-option value="posterize">posterize</ion-option>
+          <ion-option value="sepia">sepia</ion-option>
+          <ion-option value="solarize">solarize</ion-option>
+          <ion-option value="whiteboard">whiteboard</ion-option>
+        </ion-select>
+
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <button ion-button color="success" (click)="takePicture()">Take Picture</button>
+      </ion-col>
+      <ion-col>
+        <button ion-button color="warning" (click)="switchCamera()">Switch</button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <button ion-button color="danger" (click)="hide()">Hide</button>
+      </ion-col>
+      <ion-col>
+        <button ion-button color="tertiary" (click)="show()">Show</button>
+      </ion-col>
+      <ion-col>
+        <button ion-button color="primary" (click)="showSupportedPictureSizes()">Supported Sizes</button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-label>Flash:</ion-label>
+        <ion-select interface="popover" placeholder="Select Flash" [(ngModel)]="flashMode"
+                    (ionChange)="changeFlashMode()">
+          <ion-option value="off">Off</ion-option>
+          <ion-option value="on">On</ion-option>
+          <ion-option value="auto">Auto</ion-option>
+          <ion-option value="torch">Torch</ion-option>
+        </ion-select>
+      </ion-col>
+      <ion-col>
+        <ion-label>Zoom:</ion-label>
+        <ion-range min="1" max="100" pin color="secondary" [(ngModel)]="setZoom" (ionChange)="changeZoom()">
+          <ion-icon slot="start" size="small" name="search-outline"></ion-icon>
+          <ion-icon slot="end" name="search-outline"></ion-icon>
+        </ion-range>
+      </ion-col>
+    </ion-row>
+    <ion-row *ngIf="IMAGE_PATH">
+      <ion-col>
+        <img [src]="IMAGE_PATH">
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+</ion-content>

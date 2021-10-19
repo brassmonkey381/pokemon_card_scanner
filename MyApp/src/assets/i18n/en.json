@@ -11,6 +11,7 @@
   "TAB1_TITLE": "Items",
   "TAB2_TITLE": "Search",
   "TAB3_TITLE": "Settings",
+  "TAB4_TITLE": "Scan",
 
   "MAP_TITLE": "Map",
 
@@ -64,5 +65,9 @@
   "CARDS_TITLE": "Social",
 
   "SEARCH_TITLE": "Search",
-  "SEARCH_PLACEHOLDER": "Search the items list, e.g. \"Donald Duck\""
+  "SEARCH_PLACEHOLDER": "Search the items list, e.g. \"Donald Duck\"",
+
+  "SCANNER_TITLE": "Scan A Card",
+  "SCANNER_ERROR": "Unable to identify this card",
+  "SCANNER_SUCCESS": "Sucess!"
 }

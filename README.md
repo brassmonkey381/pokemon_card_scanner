@@ -27,3 +27,5 @@ https://apps.apple.com/us/app/pokefol-io/id1541533637|Pokefol.io|-|-|-|-|-|785|4
 * run `ionic cordova build android` (it will take a few minutes)
 * run `ionic cordova emulate android` (it should launch android studio and play your app on an emulated Pixel 2 or other Android device.
 * ^ if it doesn't launch automatically, try openning Android Studio Tools > AVD Manager and start your Pixel 2 / Android device manually there before running `ionic cordova emulate android` 
+
+test

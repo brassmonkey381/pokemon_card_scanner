@@ -32,8 +32,13 @@ https://apps.apple.com/us/app/pokefol-io/id1541533637|Pokefol.io|-|-|-|-|-|785|4
 Note: This repository is of a legacy design of the final TCGScan App that I will be releasing on the app store.  Here is a video of the latest cordova webapp build of the repo.
 
 Due to some webcampreview package deprecations with regards to streaming from the webcam vs the phone, I made a barebones streamlit demo to show how the card detection and classification prediction works:
+
 [tcgscan_streamlit_demo_05_12_2024.webm](https://github.com/brassmonkey381/pokemon_card_scanner/assets/16628252/802646d8-b65a-4f2c-b298-3e309c66dd6c)
+
 Here's a good look at how the card scoring, selection, and tracking of prices works in the app.  Camera preview not available on desktop, but works on mobile.
+
 [tcgscan_ionic_05_12_2024.webm](https://github.com/brassmonkey381/pokemon_card_scanner/assets/16628252/ec2ba878-a56e-41f9-9a32-6e8735fe57c0)
+
 Here's a demo of how user data is saved to the cloud using a supabase conneciton.  There's also some caching of historical prices behind the scenes.
+
 [tcgscan_supabase_05_12_2024.webm](https://github.com/brassmonkey381/pokemon_card_scanner/assets/16628252/42c78198-6339-4219-ae54-d2854f34a18c)

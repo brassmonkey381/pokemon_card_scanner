@@ -1,0 +1,23 @@
+page-card-details {
+  .card-details {
+    display: inline-flex;
+    align-items: flex-start;
+
+
+    ion-card {
+      margin-right: 10px; // Adjust the spacing between the image and text
+    }
+
+    ion-card-content {
+    }
+
+    .text-container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    ion-note {
+      align-self: flex-end;
+    }
+  }
+}

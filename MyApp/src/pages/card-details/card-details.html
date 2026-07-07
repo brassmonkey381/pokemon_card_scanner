@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>{{ 'CARD_DETAILS_TITLE' | translate }}</ion-title>
+    <ion-buttons end>
+      <!--<button ion-button icon-only (click)="addItem()">
+        <ion-icon name="add"></ion-icon>
+      </button>-->
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div class="card-details" padding>
+    <ion-card item-start>
+      <ion-card-content>
+        <img [src]="this.item.img_mobile_path" />
+      </ion-card-content>
+    </ion-card>
+    <div class="text-container">
+      <p>Series: {{this.item.series}}</p>
+      <p>Set: {{this.item.set}}</p>
+      <p>Image Local Path: {{this.item.img_mobile_path}}</p>
+      <p>High: ${{this.item.h}}</p>
+      <p>Med: ${{this.item.m}}</p>
+      <p>Low: ${{this.item.l}}</p>
+      <ion-note item-end *ngIf="this.item.card_name">{{this.item.card_name}}</ion-note>
+    </div>
+  </div>
+  <div id="plot" style="width:100%;height:400px;">
+  </div>
+  <!-- Your Ionic content here -->
+  <button ion-item>Fetch Data</button>
+  <!--<button ion-item (click)="">Fetch Data</button> -->
+</ion-content>

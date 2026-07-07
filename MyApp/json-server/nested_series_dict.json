@@ -1,0 +1,21 @@
+[
+  {
+    "black-white": [ "black-white", "boundaries-crossed", "dark-explorers", "dragon-vault", "dragons-exalted", "emerging-powers", "legendary-treasures", "next-destinies", "noble-victories", "plasma-blast", "plasma-freeze", "plasma-storm" ],
+    "promos": [ "black-white-promos", "diamond-pearl-promos", "nintendo-black-star-promos", "heartgold-soulsilver-promos", "wizards-black-star-promos" ],
+    "trainer-kits": [ "black-white-trainer-kit-excadrill", "black-white-trainer-kit-zoroark", "ex-trainer-kit-latias", "ex-trainer-kit-latios", "ex-trainer-kit-minun", "ex-trainer-kit-plusle", "sun-moon-trainer-kit-alolan-raichu", "sun-moon-trainer-kit-lycanroc" ],
+    "other": [ "mcdonalds-collection-2011", "mcdonalds-collection-2012", "best-of-game", "box-topper", "legendary-collection", "mcdonalds-collection-2021", "southern-islands", "victory-medals", "world-collection" ],
+    "classic": [ "base-set", "base-set-2", "fossil", "jungle", "team-rocket" ],
+    "collections": [ "shiny-vault" ],
+    "diamond-pearl": [ "diamond-pearl", "great-encounters", "legends-awakened", "majestic-dawn", "mysterious-treasures", "secret-wonders", "stormfront" ],
+    "pop": [ "pop-series-6", "pop-series-7", "pop-series-8", "pop-series-1", "pop-series-2", "pop-series-3", "pop-series-4", "pop-series-5", "pop-series-9" ],
+    "e-card": [ "aquapolis", "expedition", "skyridge" ],
+    "ex": [ "crystal-guardians", "delta-species", "deoxys", "dragon", "dragon-frontiers", "emerald", "firered-leafgreen", "hidden-legends", "holon-phantoms", "legend-maker", "power-keepers", "ruby-sapphire", "sandstorm", "team-magma-vs-team-aqua", "team-rocket-returns", "unseen-forces" ],
+    "gym": [ "gym-challenge", "gym-heroes" ],
+    "heartgold-soulsilver": [ "call-of-legends", "heartgold-soulsilver", "triumphant", "undaunted", "unleashed" ],
+    "neo": [ "neo-destiny", "neo-discovery", "neo-genesis", "neo-revelation" ],
+    "xy": [ "mcdonalds-collection-2016", "xy-promos", "xy-trainer-kit-latias", "xy-trainer-kit-latios", "xy-trainer-kit-noivern", "xy-trainer-kit-pikachu-libre", "xy-trainer-kit-suicune", "xy-trainer-kit-sylveon", "ancient-origins", "breakpoint", "breakthrough", "double-crisis", "evolutions", "fates-collide", "flashfire", "furious-fists", "generations", "kalos-starter-set", "phantom-forces", "primal-clash", "roaring-skies", "steam-siege", "xy" ],
+    "sun-moon": [ "mcdonalds-collection-2019", "sun-moon-promos", "burning-shadows", "celestial-storm", "cosmic-eclipse", "crimson-invasion", "detective-pikachu", "dragon-majesty", "forbidden-light", "guardians-rising", "hidden-fates", "lost-thunder", "shining-legends", "sun-moon", "sun-moon-energy", "sun-moon-energy-team-up", "team-up", "ultra-prism", "unbroken-bonds", "unified-minds" ],
+    "platinum": [ "rumble", "arceus", "platinum", "rising-rivals", "supreme-victors" ],
+    "sword-shield": [ "pokemon-futsal-promos-2020", "sword-shield-promos", "battle-styles", "celebrations", "champions-path", "chilling-reign", "darkness-ablaze", "evolving-skies", "rebel-clash", "shining-fates", "sword-shield", "sword-shield-energy", "vivid-voltage" ]
+  }
+]

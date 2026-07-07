@@ -8,11 +8,37 @@
 
 
 <ion-content>
-  <div class="item-profile" text-center #profilePic [style.background-image]="'url(' + item.profilePic + ')'">
+  <div class="item-profile" text-center #profilePic [style.background-image]="'url(' + item.img_mobile_path + ')'">
   </div>
 
   <div class="item-detail" padding>
-    <h2>{{item.name}}</h2>
-    <p>{{item.about}}</p>
+    <ion-grid>
+      <ion-row>
+        <ion-col *ngFor="let src_img of item.sets_imgs_in_series"  col-6>
+          <button ion-item (click)="openItem(item)">
+            <ion-card item-start>
+              <ion-card-content>
+                <img [src]="src_img" />
+                <p>{{src_img}}</p>
+              </ion-card-content>
+            </ion-card>
+            <h2>{{item.name}}</h2>
+
+            <ion-note item-end *ngIf="item.card_name">{{item.card_name}}</ion-note>
+          </button>
+          <ion-item-options>
+            <button ion-button color="danger">
+              {{ 'DELETE_BUTTON' | translate }}
+            </button>
+          </ion-item-options>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <ion-list>
+      <ion-item-sliding *ngFor="let item of currentItems">        
+      </ion-item-sliding>
+    </ion-list>
   </div>
+
 </ion-content>

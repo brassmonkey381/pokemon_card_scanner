@@ -16,7 +16,6 @@ export class Item {
       this[f] = fields[f];
     }
   }
-
 }
 
 export interface Item {

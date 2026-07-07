@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>{{ 'SET_CARDS_TITLE' | translate }}</ion-title>
+    <ion-buttons end>
+      <!--<button ion-button icon-only (click)="addItem()">
+        <ion-icon name="add"></ion-icon>
+      </button>-->
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <div class="set-cards" padding>
+    <ion-grid>
+      <ion-row>
+        <ion-col *ngFor="let item of this.items" col-6>
+          <ion-item-sliding>
+            <button ion-item (click)="openItem(item)">
+              <ion-card item-start>
+                <ion-card-content>
+                  <img [src]="item.img_mobile_path" />
+                </ion-card-content>
+              </ion-card>
+              <h2>{{item.name}}</h2>
+              <p>{{item.about}}</p>
+              <ion-note item-end *ngIf="item.card_name">{{item.card_name}}</ion-note>
+            </button>
+            <ion-item-options>
+              <button ion-button color="danger" (click)="deleteItem(item)">
+                {{ 'DELETE_BUTTON' | translate }}
+              </button>
+            </ion-item-options>
+          </ion-item-sliding>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>
+
+
+

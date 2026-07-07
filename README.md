@@ -27,6 +27,25 @@ https://apps.apple.com/us/app/pokefol-io/id1541533637|Pokefol.io|-|-|-|-|-|785|4
 * CRUCIAL: you must have enabled virtual machines in the BIOS menu on startup.  For me, there is a checkbox [] SVM hidden in the bios advanced options somewhere
 * run `ionic cordova build android` (it will take a few minutes)
 * run `ionic cordova emulate android` (it should launch android studio and play your app on an emulated Pixel 2 or other Android device.
+<<<<<<< HEAD
 * ^ if it doesn't launch automatically, try openning Android Studio Tools > AVD Manager and start your Pixel 2 / Android device manually there before running `ionic cordova emulate android` 
 
 ## Run app on an Android Device
+=======
+* ^ if it doesn't launch automatically, try openning Android Studio Tools > AVD Manager and start your Pixel 2 / Android device manually there before running `ionic cordova emulate android`
+
+### DEMONSTRATION:
+Note: This repository is of a legacy design of the final TCGScan App that I will be releasing on the app store.  Here is a video of the latest cordova webapp build of the repo.
+
+Due to some webcampreview package deprecations with regards to streaming from the webcam vs the phone, I made a barebones streamlit demo to show how the card detection and classification prediction works:
+
+[tcgscan_streamlit_demo_05_12_2024.webm](https://github.com/brassmonkey381/pokemon_card_scanner/assets/16628252/802646d8-b65a-4f2c-b298-3e309c66dd6c)
+
+Here's a good look at how the card scoring, selection, and tracking of prices works in the app.  Camera preview not available on desktop, but works on mobile.
+
+[tcgscan_ionic_05_12_2024.webm](https://github.com/brassmonkey381/pokemon_card_scanner/assets/16628252/ec2ba878-a56e-41f9-9a32-6e8735fe57c0)
+
+Here's a demo of how user data is saved to the cloud using a supabase conneciton.  There's also some caching of historical prices behind the scenes.
+
+[tcgscan_supabase_05_12_2024.webm](https://github.com/brassmonkey381/pokemon_card_scanner/assets/16628252/42c78198-6339-4219-ae54-d2854f34a18c)
+>>>>>>> 4b04f3ca3cdba8e92f500cf78b2d274184e3c072

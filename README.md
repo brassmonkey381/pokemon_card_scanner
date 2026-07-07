@@ -48,4 +48,3 @@ Here's a good look at how the card scoring, selection, and tracking of prices wo
 Here's a demo of how user data is saved to the cloud using a supabase conneciton.  There's also some caching of historical prices behind the scenes.
 
 [tcgscan_supabase_05_12_2024.webm](https://github.com/brassmonkey381/pokemon_card_scanner/assets/16628252/42c78198-6339-4219-ae54-d2854f34a18c)
->>>>>>> 4b04f3ca3cdba8e92f500cf78b2d274184e3c072
